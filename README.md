@@ -1,8 +1,13 @@
 #Broccoli i18n template precompiler
 
-I use it with ember-cli
+Precompiles ember-i18 translation files.
 
-exemple
+##Installation
+```
+npm install --save-dev broccoli-i18n-precompile
+```
+
+##Exemple
 
 ```js
 var mergeTrees = require('broccoli-merge-trees');
@@ -26,7 +31,6 @@ var appTranslations = compileES6(translationTree, {
 var precompiledTrans = i18nPrecompile(appTranslations);
 
 ```
+It will generate a precompiled js file that you can include in your `index.html` file
 
-It will generate a precompiled js file that you can include in your index.html file
-
-It is important to set wrapInEval to false;
+It is important to set wrapInEval to false.
