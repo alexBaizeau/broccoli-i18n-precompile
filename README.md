@@ -7,7 +7,7 @@ Precompiles ember-i18 translation files.
 npm install --save-dev broccoli-i18n-precompile
 ```
 
-##Exemple
+##Example
 
 ```js
 var mergeTrees = require('broccoli-merge-trees');
