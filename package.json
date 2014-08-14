@@ -1,6 +1,6 @@
 {
   "name": "broccoli-i18n-precompile",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Ember i18n handlebar precompiler for broccoli",
   "main": "index.js",
   "scripts": {
