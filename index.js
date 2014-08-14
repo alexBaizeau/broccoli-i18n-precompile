@@ -46,7 +46,7 @@ Precompiler.prototype.write = function(readTree, destDir) {
           "(function() {\n" +
           "var t = Handlebars.template;\n" +
           result +
-          "})();";
+          "\n})();";
         fs.writeFileSync(destPath, result, { encoding: 'utf8' });
       }
     });
